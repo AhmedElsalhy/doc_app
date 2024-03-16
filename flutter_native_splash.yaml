@@ -1,6 +1,8 @@
-#splash screen for ios & andriod
+#splash screen for ios & andriod below 12
 flutter_native_splash:
   color: "#FFFFFF"
   image: assets/images/splash.png
 
   android_12:
+    color: "#FFFFFF"
+    image: assets/images/splash_android12_logo.png
