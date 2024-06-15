@@ -1,4 +1,4 @@
-import 'package:doc_app/core/helpers/extentions.dart';
+import 'package:doc_app/core/helpers/extensions.dart';
 import 'package:doc_app/core/routing/routes.dart';
 import 'package:doc_app/core/theming/colors.dart';
 import 'package:doc_app/core/theming/styles.dart';
@@ -14,12 +14,12 @@ class GetStartedButton extends StatelessWidget {
         context.pushNamed(Routes.loginScreen);
       },
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(ColorManager.mainBlue),
+        backgroundColor: WidgetStateProperty.all(ColorManager.mainBlue),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        minimumSize: MaterialStateProperty.all(
+        minimumSize: WidgetStateProperty.all(
           const Size(double.infinity, 53),
         ),
-        shape: MaterialStateProperty.all(
+        shape: WidgetStateProperty.all(
           RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),

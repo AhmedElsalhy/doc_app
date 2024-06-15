@@ -1,11 +1,10 @@
 import 'package:doc_app/core/helpers/spacing.dart';
 import 'package:doc_app/core/theming/styles.dart';
-import 'package:doc_app/core/widgets/app_text_buttom.dart';
+import 'package:doc_app/core/widgets/app_text_button.dart';
 import 'package:doc_app/core/widgets/app_text_form_field.dart';
 import 'package:doc_app/features/login/ui/widgets/already_have_account_text.dart';
 import 'package:doc_app/features/login/ui/widgets/terms_and_conditions_text.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class LoginScreenBody extends StatefulWidget {
